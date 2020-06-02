@@ -1,0 +1,25 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-mid {
+  @extend .container;
+  max-width: 1140px;
+}
+
+.container-sm {
+  @extend .container;
+  max-width: 960px;
+}
+
+.container-flex {
+  display: flex;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0 200px;
+}

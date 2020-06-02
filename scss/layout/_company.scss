@@ -1,0 +1,28 @@
+.company {
+  padding-bottom: 0;
+}
+
+.company-info {
+  padding: 40px 100px 100px 0;
+}
+
+.company-media {
+  align-self: end;
+}
+
+.company-text {
+  font-size: 16px;
+  padding: 24px 0;
+  color: $lightGrayColor;
+}
+
+.company-img {
+  display: block;
+}
+
+.company-btn {
+  min-width: 180px;
+  height: 36px;
+  background-color: $mainColor;
+  padding: 0 20px;
+}

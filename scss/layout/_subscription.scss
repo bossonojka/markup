@@ -1,0 +1,39 @@
+.subscription {
+  background-color: $grayColor;
+}
+
+.subscription-content {
+  text-align: center;
+  color: $whiteColor;
+}
+
+.subscription-text {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.subscription-form {
+  display: flex;
+  justify-content: center;
+}
+
+.subscription-controls {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  max-width: 660px;
+}
+
+.subscription-control {
+  border: 0;
+  padding: 10px 20px;
+  margin: 0 -6px;
+  flex: 1 1 auto;
+}
+
+.subscription-btn {
+  background-color: $mainColor;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 3px 0px 0px 3px;
+}

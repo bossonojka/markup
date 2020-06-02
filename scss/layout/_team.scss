@@ -1,0 +1,53 @@
+.team-title, .team-text {
+  text-align: center;
+}
+
+.team-text {
+  color: $lightGrayColor;
+  width: 50%;
+  margin: 20px auto 60px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  width: 25%;
+  display: flex;
+  padding-right: 20px;
+
+  &:first-of-type {
+    padding-bottom: 20px;
+  }
+}
+
+.team-member-avatar {
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.team-member-name {
+  color: $grayColor;
+  font-size: 14px;
+}
+
+.team-member-position {
+  font-size: 10px;
+  display: block;
+}
+
+.team-member-name, .team-member-position {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.team-member-info {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.team-member-position, .team-member-info {
+  color: $lightGrayColor;
+}

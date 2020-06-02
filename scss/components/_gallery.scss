@@ -1,0 +1,47 @@
+.gallery {
+  position: relative;
+}
+
+.gallery-slider {
+  overflow: hidden;
+}
+
+.gallery-list {
+  text-align: center;
+  display: flex;
+  width: 235 * 8px;
+}
+
+.gallery-slide {
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.gallery-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery-arrow {
+  position: absolute;
+  color: $whiteColor;
+  left: -90px;
+  display: block;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+  
+  &.is-next{
+    right: -90px;
+    left: auto;
+  }
+}
+
+.gallery-icon {
+  display: block;
+  font-size: 80px;
+}

@@ -1,0 +1,26 @@
+.social-list {
+  display: flex;
+}
+
+.social-item {
+  padding-right: 10px;
+}
+
+.social-item {
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.social-link,
+.social-icon {
+  display: block;
+}
+
+.social-icon {
+  color: $whiteColor;
+
+  &:hover {
+    color: $mainColor;
+  }
+}

@@ -1,0 +1,14 @@
+.link {
+  text-decoration: none;
+  color: $whiteColor;
+}
+
+.link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.link-img {
+  text-decoration: none;
+}

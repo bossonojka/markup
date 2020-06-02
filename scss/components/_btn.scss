@@ -1,0 +1,14 @@
+.btn {
+  color: $whiteColor;
+  text-transform: uppercase;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.btn {
+  &:hover {
+    background-color: $lightBlackColor;
+  }
+}
